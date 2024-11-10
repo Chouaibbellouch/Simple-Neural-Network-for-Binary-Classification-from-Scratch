@@ -7,6 +7,13 @@ model = tf.keras.models.load_model('Classification_chiffres_manuscrits.keras')
 
 app = Flask(__name__)
 
+# Route de base pour la page d'accueil
+@app.route('/')
+def home():
+    return "Bienvenue sur l'API de prédiction ! Utilisez /predict pour obtenir  une prédiction."
+
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     image_file = request.files['image']
