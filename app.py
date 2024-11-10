@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Charger le modèle
-model = tf.keras.models.load_model('mon_modele.keras')
+model = tf.keras.models.load_model('Classification_chiffres_manuscrits.keras')
 
 # Route principale pour afficher l'interface de téléchargement d'image
 @app.route('/')
