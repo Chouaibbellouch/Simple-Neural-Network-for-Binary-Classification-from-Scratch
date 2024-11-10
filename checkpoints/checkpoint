@@ -1,0 +1,2 @@
+model_checkpoint_path: "checkpoint_theta_LR_using_keras_as_optimizer_for_gradient-1"
+all_model_checkpoint_paths: "checkpoint_theta_LR_using_keras_as_optimizer_for_gradient-1"
