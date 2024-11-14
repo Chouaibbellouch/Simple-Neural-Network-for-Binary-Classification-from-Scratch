@@ -4,7 +4,10 @@
 
 Ce dépôt contient une implémentation simple d'un réseau de neurones en Python en utilisant NumPy, développée à partir de zéro. Le modèle est une régression logistique de base avec deux entrées et une sortie, utilisant une fonction d'activation sigmoïde. L'objectif est d'illustrer comment la descente de gradient peut être implémentée à partir de zéro pour minimiser la perte logarithmique dans une tâche de classification binaire.
 
+
 ### Aperçu du Modèle
+
+![Aperçu du Modèle](NN.jpg)
 
 - Le modèle possède **2 caractéristiques en entrée** et **1 sortie**.
 
